@@ -38,6 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
 document.addEventListener('DOMContentLoaded', () => {
     const features = [
         // { title: 'Title', description: 'Description' },
+        { title: 'v1.2 - 16/06/2024 - Website-Update', description: 'Update-Tabs' },
         { title: 'v1.1 - 13/06/2024 - Website-Update', description: 'Update-Tab und News-Tab hinzugefügt und Shop-Abstürze behoben' },
     ];
 
@@ -49,3 +50,4 @@ document.addEventListener('DOMContentLoaded', () => {
         featuresList.appendChild(listItem);
     });
 });
+
