@@ -1,1 +1,236 @@
-
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://github.com/Kilian-Bogus/Website-Images/blob/main/KilianB_logo_round.png?raw=true">
+    <title>KilianB.</title>
+    <link rel="stylesheet" href="assets/styles/dropdownmenu.css">
+    <link rel="stylesheet" href="assets/styles/index.css">
+    <link rel="stylesheet" href="assets/styles/navbar.css">
+    <link rel="stylesheet" href="assets/styles/myprinters.css">
+    <link rel="stylesheet" href="assets/styles/tools.css">
+</head>
+<body>
+    <header class="main-header">
+        <h1>KilianB.</h1>
+    </header>
+    <nav class="navbar">
+        <div class="dropdown">
+            <button class="dropbtn">Informationen</button>
+            <div class="dropdown-content">
+                <a href="#">Über mich</a>
+                <a href="#">Kontakt</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">3D Druck</button>
+            <div class="dropdown-content">
+                <a href="#my-printers">Meine 3D Drucker</a>
+                <a href="#my-tools">Mein Werkzeug</a>
+                <a href="#filament">Mein Filament</a>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <section id="3dprinter">
+            <h2>Meine 3D Drucker</h2>
+            <div class="printers-container">
+                <div class="my-printers-div">
+                    <h2>Voxelab Aquila X2</h2>
+                    <br>
+                    <img class="my-printers-div-img" src="https://images-cdn.ubuy.co.in/633be0704360cb5f526128c1-ubuy-online-shopping.jpg" alt="Voxelab Aquila X2">
+                    <br>
+                    <p>Seit November 2023 nutze ich den Voxelab Aquila X2 3D-Drucker mit großem Druckvolumen (220 x 220 x 250 mm) und einer Geschwindigkeit von bis zu 180 mm/s für präzise Ergebnisse (Schichtauflösung bis zu 0,1 mm).</p>
+                    <br>
+                    <p style="color: red; font-weight: bold; font-family: Arial, Helvetica, sans-serif;">Dieser Drucker ist nicht mehr verfügbar.</p>
+                    <br>
+                    <button>
+                        <a href="https://flashforge.com/collections/3d-printers" target="_blank" class="printer-link">
+                            Kaufen beim Hersteller
+                        </a>
+                    </button>
+                </div>
+                <!--
+                <div class="my-printers-div">
+                    <h2>Bambulab P1S</h2>
+                    <br>
+                    <img class="my-printers-div-img" src="https://www.christiani.de/out/pictures/generated/product/1/400_400_70/104079-bambu-lab-p1s-combo-3d-drucker-1.webp" alt="Bambulab P1S">
+                    <br>
+                    <p>Seit Monat.Jahr nutze ich den Bambulab P1S 3D-Drucker mit großem Druckvolumen (256 x 256 x 256 mm) und einer Geschwindigkeit von bis zu 200 mm/s für präzise Ergebnisse (Schichtauflösung bis zu 0,05 mm).</p>
+                    <br>
+                    <button>
+                        <a href="https://eu.store.bambulab.com/de/products/p1s-de?variant=47966917886300" target="_blank" class="printer-link">
+                            Kaufen beim Hersteller
+                        </a>
+                    </button>
+                </div>     
+            -->
+        </section>
+        <section id="my-tools">
+            <h2>Mein Werkzeug</h2>
+            <div class="tools-container">
+                <div class="my-tools-div">
+                    <h2>3DLAC Sprühkleber</h2>
+                    <br>
+                    <img class="my-tools-div-img" src="https://m.media-amazon.com/images/I/41v07vc7zML.__AC_SX300_SY300_QL70_ML2_.jpg" height="250px">
+                    <br>
+                    <button>
+                        <a href="https://www.amazon.de/8411322233113/dp/B01HQ4KXZ4/ref=pd_rhf_se_s_pd_crcd_d_sccl_2_3/257-1549566-9897537?pd_rd_w=m47i9&content-id=amzn1.sym.d36cdb68-efc9-4a4e-bcda-d349636a649b&pf_rd_p=d36cdb68-efc9-4a4e-bcda-d349636a649b&pf_rd_r=23FR3NX04RV5RN4Y5G8A&pd_rd_wg=5kU4f&pd_rd_r=b4bc6dea-1efe-4297-ab6e-2d1f23d3e1af&pd_rd_i=B01HQ4KXZ4&psc=1" target="_blank" class="tools-link"> <!-- Updated class name here -->
+                            Kaufen bei Amazon
+                        </a>
+                    </button>
+                </div>
+                <div class="my-tools-div">
+                    <h2>Connex Assortment Box</h2>
+                    <br>
+                    <img class="my-tools-div-img" src="https://m.media-amazon.com/images/I/51+PyDuUnLL._AC_.jpg" width="300px">
+                    <br>
+                    <button>
+                        <a href="https://www.amazon.de/Connex-DP8500055-Gewindeschrauben-Sortimentskasten-inklusiv-Phillips-Antrieb/dp/B00B22VHPC" target="_blank" class="printer-link">
+                            Kaufen bei Amazon
+                        </a>
+                    </button>
+                </div>
+                <div class="my-tools-div">
+                    <h2>3D Printer Nozzle, 26 Pieces MK8 Nozzles, Stainless Steel, Brass</h2>
+                    <br>
+                    <img class="my-tools-div-img" src="https://images-eu.ssl-images-amazon.com/images/I/71XJ-UDXzyL._AC_UL232_SR232,232_.jpg">
+                    <br>
+                    <button>
+                        <a href="https://www.amazon.de/-/en/dp/B09FM2CXPT/ref=twister_B0BBD4YHN4?_encoding=UTF8&th=1" target="_blank" class="printer-link">
+                            Kaufen bei Amazon
+                        </a>
+                    </button>
+                </div>
+                <div class="my-tools-div">
+                    <h2>Frevoitna Universal deburring tool</h2>
+                    <br>
+                    <img class="my-tools-div-img" src="https://m.media-amazon.com/images/I/61G-7D0HGbL._SX522_.jpg" width="300px">
+                    <br>
+                    <button>
+                        <a href="https://www.amazon.de/Frevoitna-Universal-deburring-replacement-aluminium/dp/B0C8HXYR24/ref=sr_1_1_sspa?crid=I5UAEMTRAZ54&dib=eyJ2IjoiMSJ9.shDUuz6afHf86tbACQ2u3wtdz2iKhciyYRdKXKbaYTwMInUThI1wnpNJAvZq9GQ8g1hMbEx0kLaub6_nXIhkAfQxk9QChE9fcxYpu4ab_HO1S2uxOPzGbl1JtJCnm9F3-6L9e_SHy4lYIBBwB5OLMH7eOprLQn2i2izYiN58gn-TiuL7UhiGlRBuVLI3j6kGL0KUocHzvE-bMzD4Im8jTiYfYzSAeRxbGQ2KNnOy9bU1VcIEh890FZRpbdFrik6Y9RMYVN98lJRFqUyhLwHSjpRa1ThtAfEdGHfKVE0BvqM.hUzLuwDJK0wDOmEigTtfVH0sazjNj7VzlTft5FNL9w0&dib_tag=se&keywords=deburring+system&qid=1721312531&s=industrial&sprefix=deburring+system%2Cindustrial%2C78&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1" target="_blank" class="printer-link">
+                            Kaufen bei Amazon
+                        </a>
+                    </button>
+                </div>
+                <div class="my-tools-div">
+                    <h2>Pack of 300 Threaded Inserts, M2 M2.5 M3 M4 M5 M6 Insert Nut Brass</h2>
+                    <br>
+                    <img class="my-tools-div-img" src="https://m.media-amazon.com/images/I/81RtvNPWMnL._SX522_.jpg" width="300px">
+                    <br>
+                    <button>
+                        <a href="https://www.amazon.de/Gewindeeinsatz-Einpressmutter-Gewindebuchsen-Kunststoff-Box-Kunststoffteiledurch/dp/B09B7F2XM3/ref=asc_df_B09B7F2XM3/?tag=googshopde-21&linkCode=df0&hvadid=697110280450&hvpos=&hvnetw=g&hvrand=7379452614140689340&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9043671&hvtargid=pla-1426369579649&mcid=ff0c568f84a938d4a7e3c9d2c08b3e05&th=1&gad_source=1" target="_blank" class="printer-link">
+                            Kaufen bei Amazon
+                        </a>
+                    </button>
+                </div>
+                <div class="my-tools-div">
+                    <h2>Pack of 300 Threaded Inserts, M2 M2.5 M3 M4 M5 M6 Insert Nut Brass</h2>
+                    <br>
+                    <img class="my-tools-div-img" src="https://m.media-amazon.com/images/I/71fD-kZzatS.__AC_SX300_SY300_QL70_ML2_.jpg" width="300px">
+                    <br>
+                    <button>
+                        <a href="https://www.amazon.de/Scalpel-Stainless-Plastic-Cutting-Charcoal/dp/B08ZCCFHP3/ref=sr_1_3_sspa?crid=XK29GTLICLR8&dib=eyJ2IjoiMSJ9.d7jeg_0WrwT0OTX-tzoPJR98MrPsy_8T5bkhvFs6RydCtO3FmvpxGMOE3MJODvBsBgublrlTkclXRVhiZm9bNUVUnaeuKqjaZxTWpn_5lkVccXnp24ASPUlvVfa5gDfrL39OYx8ac93ykgTRjf8lnn9Qco59GE-GnQE8tdJLl4y1qP-6efAR1gg9WwPEZwXtDf-VushG3JzsHVls3djBAANXB6PNvotRAazf1If1LPNTBR2X2qfgwWYXR3w54qzaiw4WqtOxbR0AzTAAU4gJ0l9NvUv-eLQPs419abivGNs.f0yBy-JFgsjA6bzdZ3RoB-5NfKLkYdeRTGFsen0VPL8&dib_tag=se&keywords=skalpell&qid=1721312708&sprefix=skalpell%2Caps%2C100&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1" target="_blank" class="printer-link">
+                            Kaufen bei Amazon
+                        </a>
+                    </button>
+                </div>
+        </section>
+        <section id="my-tools">
+            <h2>Mein Filament</h2>
+            <div class="tools-container">
+                <div class="my-tools-div">
+                    <h2>kexcelled Matte PLA Filament 1.75 mm</h2>
+                    <br>
+                    <img class="my-tools-div-img" src="https://m.media-amazon.com/images/I/71dYI0Ip5KL._SX522_.jpg" width="300px">
+                    <br>
+                    <button>
+                        <a href="https://www.amazon.de/-/en/kexcelled-PLA-Filament-Gloss-Free-Suitable/dp/B0B6PD51JY?ref_=ast_sto_dp&th=1" target="_blank" class="printer-link">
+                            Kaufen bei Amazon
+                        </a>
+                    </button>
+                </div>
+                <div class="my-tools-div">
+                    <h2>kexcelled Matte PLA Filament 1.75 mm</h2>
+                    <br>
+                    <img class="my-tools-div-img" src="https://m.media-amazon.com/images/I/71toTu-ONfL._SX522_.jpg" width="300px">
+                    <br>
+                    <button>
+                        <a href="https://www.amazon.de/-/en/kexcelled-PLA-Filament-Gloss-Free-Suitable/dp/B09QM6QQDD?th=1" target="_blank" class="printer-link">
+                            Kaufen bei Amazon
+                        </a>
+                    </button>
+                </div>
+                <div class="my-tools-div">
+                    <h2>kexcelled Matte PLA Filament 1.75 mm</h2>
+                    <br>
+                    <img class="my-tools-div-img" src="https://m.media-amazon.com/images/I/71Bxx+Q6TUL._SX522_.jpg" width="300px">
+                    <br>
+                    <button>
+                        <a href="https://www.amazon.de/-/en/kexcelled-PLA-Filament-Gloss-Free-Suitable/dp/B09C5GF4NS?th=1" target="_blank" class="printer-link">
+                            Kaufen bei Amazon
+                        </a>
+                    </button>
+                </div>
+                <div class="my-tools-div">
+                    <h2>kexcelled Matte PLA Filament 1.75 mm</h2>
+                    <br>
+                    <img class="my-tools-div-img" src="https://m.media-amazon.com/images/I/71uDW4Z0TyL._SX522_.jpg" width="300px">
+                    <br>
+                    <button>
+                        <a href="https://www.amazon.de/-/en/kexcelled-PLA-Filament-Gloss-Free-Suitable/dp/B09C5GYGCR?th=1" target="_blank" class="printer-link">
+                            Kaufen bei Amazon
+                        </a>
+                    </button>
+                </div>
+                <div class="my-tools-div">
+                    <h2>kexcelled Matte PLA Filament 1.75 mm</h2>
+                    <br>
+                    <img class="my-tools-div-img" src="https://m.media-amazon.com/images/I/71xg-1vqY9L._SX522_.jpg" width="300px">
+                    <br>
+                    <button>
+                        <a href="https://www.amazon.de/-/en/kexcelled-PLA-Filament-Gloss-Free-Suitable/dp/B09C5G3RR2?th=1" target="_blank" class="printer-link">
+                            Kaufen bei Amazon
+                        </a>
+                    </button>
+                </div>
+                <div class="my-tools-div">
+                    <h2>Amazon Basics 3D Printer PLA Plastic Filament, 1.75 mm</h2>
+                    <br>
+                    <img class="my-tools-div-img" src="https://m.media-amazon.com/images/I/81qiWuOnDOL._SX522_.jpg" width="300px">
+                    <br>
+                    <button>
+                        <a href="https://www.amazon.de/-/en/Amazon-Basics-Printer-Plastic-Filament/dp/B07RZTF5Q7/ref=sr_1_2?dib=eyJ2IjoiMSJ9.wCy1CHLISV84IAnidl__9dTfeX9evMx_ZdLUMN1qTk3l-dMyg8yuM2Ok7VPzEJOCIfVDuPTVN6bku8mWXAiiKauxAKkag8guKf0lY_3S10VnZn5VNw3nsY5OoSsrZVltw5asd_RdchnHny7HdF9oguaEmX3rpk5h4zRg9x8DeObGd-E9qdttuqysEJE_DA-rH11UTfdFU4qO70jKmgAN4_SedL5vuB2PgzFbMNsseWFwyORk-EjE1sb4sVN7XdnRlEYtdQ6ebpHOcLMdSCl0iXPRpJLknPxyojDO7DhVXtY.Dfpm7Gun0Qvj1NoLvSUVQqoiqnMEaeGwtJWovaDYrOs&dib_tag=se&keywords=amazon%2Bbasic%2Byellow%2B1.75&qid=1721313563&sr=8-2&th=1" target="_blank" class="printer-link">
+                            Kaufen bei Amazon
+                        </a>
+                    </button>
+                </div>
+                <div class="my-tools-div">
+                    <h2>ELEGOO PLA Filament 1.75 mm White</h2>
+                    <br>
+                    <img class="my-tools-div-img" src="https://m.media-amazon.com/images/I/71mr9+AlsUL._AC_SX679_.jpg" width="300px">
+                    <br>
+                    <button>
+                        <a href="https://www.amazon.de/Filament-Dimensional-Accuracy-Cardboard-Materials/dp/B0CD7B7ZKK/ref=sr_1_2_sspa?crid=4J1EBR0CJWOC&dib=eyJ2IjoiMSJ9.lL4cW2CILJdz9ZK8i8h0SaL7Bu0Pl4kBIIcbyW6KvbguhiKxI_LNN0CLDR5x9OwQNnDHlcrmOUKrBnHleviInj8_iXOgNWL4p63PxGWWLIuICy4h2MGwEZFhORRwcP0o1VXFMqsCYlFvkXleAAYm2f-p5kw1wP0BUwBCni8rGALKRhBOUn1teWqi8_R3YqisZ2hHnehXUDehn6F5PSSI2yN3xX0qtEEDyVrruEfE5CMNWHnwL7opBxDI2PgjdBGJD22BovejMlTvra6GYnY3bmbcQHEvQAt7sW2b2rDBVRY.Po9CjW0CSxAbvWKDdR2wHLTyVqus9jbZ0unFdc7_5E0&dib_tag=se&keywords=elegoo%2Bwhite%2B1.75m&qid=1721313628&sprefix=elegoo%2Bwhite%2B1.75m%2Caps%2C75&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1" target="_blank" class="printer-link">
+                            Kaufen bei Amazon
+                        </a>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section id="kontakt">
+            <h2>Kontakt</h2>
+        </section>
+        <br>
+        <br>
+        <br>
+        <footer>
+            <p>&copy; 2024 KilianB.</p>
+            <button>
+                <a href="impressum.html">Impressum</a>
+            </button>
+        </footer>
+    </main>
+</body>
+</html>
