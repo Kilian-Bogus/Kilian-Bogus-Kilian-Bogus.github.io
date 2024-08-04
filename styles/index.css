@@ -10,8 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 200px;
-    background-color: #f0f0f0;
-    background-image: url('https://github.com/Kilian-Bogus/Website-Images/blob/main/KilianB_logo_Background.png?raw=true');
+    background-color: #333;
     background-size: cover;
     background-position: center;
     text-align: center;
