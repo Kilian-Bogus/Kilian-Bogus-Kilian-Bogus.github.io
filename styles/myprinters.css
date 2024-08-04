@@ -1,0 +1,82 @@
+.my-printers {
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.my-printers-div-main {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.printers-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.my-printers-div {
+    width: calc(50% - 20px);
+    max-width: 400px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+    margin-bottom: 20px;
+    text-align: left;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .my-printers-div-1,
+    .my-printers-div-2 {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.my-printers-div h2 {
+    margin-top: 0;
+    color: black;
+}
+
+.my-printers-div-img {
+    display: block;
+    width: 300px;
+    height: 375px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.printer-link {
+    display: inline-block;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #1a6aa0;
+    color: #ffffff;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+    font-size: 14px;
+    border: none;
+}
+
+.printer-link:hover {
+    background-color: #3498db;
+    color: #ffffff;
+}
+
+.printer-link:focus,
+.printer-link:focus-visible {
+    outline: none;
+}

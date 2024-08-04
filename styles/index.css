@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.main-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: #f0f0f0;
+    background-image: url('https://github.com/Kilian-Bogus/Website-Images/blob/main/KilianB_logo_Background.png?raw=true');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 1em 0;
+    text-align: center;
+}
+
+.main-header h1 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 2em;
+}
+
+section {
+    padding: 20px;
+    background: #fff;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
