@@ -1,2 +1,2 @@
 # Kilian-Bogus.github.io
-Websiteb Domain: https://KilianB.bbd-8.org/
+Websiteb Domain: https://kilianbogus.bbd-8.org/
